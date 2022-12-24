@@ -10,7 +10,7 @@ import {
 } from 'chart.js'
 import { Chart } from 'react-chartjs-2';
 import Layout from '../components/Layout';
-import { chart_bar_data as data } from '../src/data';
+import { data } from '../src/data';
 
 ChartJS.register(
   CategoryScale,
@@ -19,7 +19,7 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
 );
 
 const ChartPage = () => (
