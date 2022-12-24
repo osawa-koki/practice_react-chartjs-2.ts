@@ -1,13 +1,16 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Link from 'next/link';
+import Setting from '../common/Setting';
+import Layout from '../components/Layout';
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
+  <Layout>
+    <div id='Index'>
+      <div id='MainTopic'>
+        <h1>Hello react-chartjs-2 👋</h1>
+        <img id='Logo' src={`${Setting.IMG_ROOT_PATH}/Logo.svg`} alt="Logo" />
+      </div>
+    </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
