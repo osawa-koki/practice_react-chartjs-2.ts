@@ -9,6 +9,9 @@ import {
   Legend,
 } from 'chart.js'
 import { Chart } from 'react-chartjs-2';
+import Layout from '../components/Layout';
+import { chart_bar_data as data } from '../src/data';
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -17,9 +20,7 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend
-)
-import Layout from '../components/Layout';
-import { chart_bar_data as data } from '../src/data';
+);
 
 const ChartPage = () => (
   <Layout title="chart">
