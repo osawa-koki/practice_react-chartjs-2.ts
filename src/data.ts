@@ -1,5 +1,5 @@
 
-const chart_bar_data = {
+const data = {
   labels: ['C#', 'TypeScript', 'Python', 'Haskell', 'Ruby', 'Kotlin'],
   datasets: [
     {
@@ -7,8 +7,9 @@ const chart_bar_data = {
       data: [12, 19, 3, 5, 2, 23],
       borderWidth: 1,
       borderColor: "blue",
+      backgroundColor: "skyblue",
     },
   ],
 };
 
-export { chart_bar_data };
+export { data };
