@@ -1,0 +1,18 @@
+
+#Index {
+  #MainTopic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      font-size: 2rem;
+    }
+    #Logo {
+      width: 150px;
+      border-radius: 50%;
+      border: 1px lightgray solid;
+      margin-top: 1rem;
+    }
+  }
+}

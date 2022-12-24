@@ -1,0 +1,22 @@
+
+header {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    a {
+      padding-right: 1rem;
+      margin-right: 1rem;
+      border-right: 1px lightgray solid;
+      color: #0E6DFE;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+main {
+  padding: 1rem;
+}
