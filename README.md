@@ -18,3 +18,7 @@ yarn build
 | ---- | ---- |
 | Windows | 11 Home |
 | Node | 16.18.0 |
+
+## 参考文献
+
+- [公式ドキュメント](https://react-chartjs-2.js.org/)
