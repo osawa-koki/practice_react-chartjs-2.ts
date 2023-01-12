@@ -6,7 +6,7 @@ const IndexPage = () => (
     <div id='Index'>
       <div id='MainTopic'>
         <h1>Hello react-chartjs-2 👋</h1>
-        <img id='Logo' src={`${Setting.IMG_ROOT_PATH}/Logo.svg`} alt="Logo" />
+        <a href='https://react-chartjs-2.js.org/'><img id='Logo' src={`${Setting.IMG_ROOT_PATH}/Logo.svg`} alt="Logo" /></a>
       </div>
     </div>
   </Layout>
