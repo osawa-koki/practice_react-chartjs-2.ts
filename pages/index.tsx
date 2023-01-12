@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Setting from '../common/Setting';
 import Layout from '../components/Layout';
 
