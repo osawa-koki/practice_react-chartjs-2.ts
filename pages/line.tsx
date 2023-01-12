@@ -14,6 +14,7 @@ const LinePage = () => (
   <Layout title="line">
     <h1>Line</h1>
     <Line
+      className="chart"
       data={data}
     />
   </Layout>
