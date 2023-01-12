@@ -10,7 +10,7 @@ ChartJS.register(
   ...registerables,
 );
 
-const BarPage = () => (
+const PiePage = () => (
   <Layout title="bar">
     <h1>Pie</h1>
     <Pie
@@ -19,4 +19,4 @@ const BarPage = () => (
   </Layout>
 );
 
-export default BarPage;
+export default PiePage;
